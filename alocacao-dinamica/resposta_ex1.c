@@ -12,6 +12,10 @@ int main () {
 
       // Alocando cada coluna ma matriz
       matriz[i] = (int *)malloc(sizeof(int) * COLUNAS);
+      if (matriz[i] == NULL) {
+         perror("Erro ao tentar coluna da matriz\n");
+         exit(1);
+      }
 
       // Preenchendo cada coluna da matriz
       for (int j = 0; j < COLUNAS; j++) {

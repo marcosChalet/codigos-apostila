@@ -11,6 +11,10 @@ int main () {
    for (int i = 0; i < LINHAS; i++) {
 
       matriz[i] = (int *)malloc(sizeof(int) * COLUNAS);
+      if (matriz[i] == NULL) {
+         perror("Erro ao tentar coluna da matriz\n");
+         exit(1);
+      }
 
       for (int j = 0; j < COLUNAS; j++) {
         matriz[i][j] = (i * COLUNAS) + j;
