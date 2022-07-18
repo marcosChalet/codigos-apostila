@@ -13,7 +13,8 @@ int main () {
     * aponta para um nome
     * */
 
-   char *lst[] = {"Ana", "Carlos", "João", "Vitória", "Amanda", NULL};
+   char *lst[] = {"Ana", "Carlos", "João",
+                  "Vitória", "Amanda", NULL};
 
    /* swap( meus argumentos ) */
 
