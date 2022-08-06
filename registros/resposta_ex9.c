@@ -15,8 +15,8 @@ int main () {
 
    // Lista de elementos
    Elemento sexto    = {1, {'A', 1}, NULL      };
-   Elemento quinto   = {1, {'B', 2}, &sexto    };
-   Elemento quarto   = {1, {'C', 3}, &quinto   };
+   Elemento quinto   = {2, {'B', 2}, &sexto    };
+   Elemento quarto   = {3, {'C', 3}, &quinto   };
    Elemento terceiro = {4, {'D', 4}, &quarto   };
    Elemento segundo  = {5, {'E', 5}, &terceiro };
    Elemento primeiro = {6, {'F', 6}, &segundo  };
