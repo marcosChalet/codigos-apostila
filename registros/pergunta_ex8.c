@@ -15,6 +15,7 @@ typedef struct elemento {
 
 int main () {
 
+   // Elemento xxxx = {id, {naipe, numero}, proxElemento}
    Elemento primeiro = {1, {'A', 4}, NULL};
    Elemento segundo;
 
