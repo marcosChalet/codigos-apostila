@@ -23,7 +23,7 @@ int main () {
    Elemento *aux;
 
    /* 
-    * Temos elemetos interligados através do ponteiro proxElemento.
+    * Temos elementos interligados através do ponteiro proxElemento.
     *
     * [primeiro]-> [segundo]-> [terceiro]-> [quarto]-> [quinto]-> [sexto]-> NULL 
     *
