@@ -47,7 +47,7 @@ int main () {
                                 aux->carta.naipe,
                                 aux->carta.numero);
 
-      // Anda apra o próximo elemento
+      /* andar com o ponteiro aux */
       aux = aux->proxElemento;
    }
 
